@@ -278,12 +278,11 @@ p {
 }
 
 .card-deck {
-  width: 80%;
+  width: 95%;
   height: auto;
-  margin: 0 -10em 0 7.5em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: .5rem;
+  grid-gap: 1rem;
 }
 
 .card {
@@ -300,5 +299,6 @@ p {
 }
 
 .card-deck .card {
-  margin: 5em 3em 5em 3em;
+  margin: 5em 0em 5em 5em;
+  width: auto;
 }
