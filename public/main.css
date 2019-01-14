@@ -280,12 +280,13 @@ p {
 .card-deck {
   width: 80%;
   height: auto;
-  margin-left: 10em;
-  margin-bottom: 5em;
+  margin: 0 -10em 0 7.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
 }
 
 .card {
-  margin-top: 5em;
   background-color: rgba(255, 255, 255, 0.85);
 }
 
@@ -296,4 +297,8 @@ p {
 .text-muted {
   font-size: 2em;
   margin-left: 35%;
+}
+
+.card-deck .card {
+  margin: 5em 3em 5em 3em;
 }
