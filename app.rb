@@ -10,7 +10,7 @@ get "/muffins" do
 
 	@big_brother = Muffin.new("Big Brother Banana Chip", "Have one and discuss the state of government and how much about us they really know.", 3.25, "/Images/Big-Brother-Chip.jpg")
 
-	@doomsday_berry = Muffin.new("DoomsdayBerry", "This special blueberry muffin is eaten regularly by the wise folks with the doomsday signs on the side of the road. Better eat one before their premonitions come true and you lose your chance forever!", 2.75, "/Images/Doomsday-Berry.jpg")
+	@doomsday_berry = Muffin.new("DoomsdayBerry", "This special blueberry muffin is eaten regularly by the wise folks with the doomsday signs on the side of the road. Better eat one before their premonitions come true and you lose your chance forever!", 2.75, "/Images/Doomsday-Berry.JPG")
 
 	erb :muffins
 end
