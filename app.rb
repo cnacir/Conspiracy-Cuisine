@@ -122,7 +122,7 @@ post "/" do
 	# display http response headers
 	puts response.headers
 
-redirect "/"
+# redirect "/"
 end
 
 get "/about" do
